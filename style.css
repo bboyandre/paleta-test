@@ -1,0 +1,48 @@
+#cor{
+    padding: 10% 0;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.options{
+    background-color: pink;
+    width: 120px;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 3px;
+    border: solid 2px orange;
+    
+    
+}
+.paletas{
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: green;
+    float: left;
+    margin: 4px;
+
+}
+.linha{
+    display: flex;
+    justify-content: center;
+}
+.bt1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 91px;
+}
+.centralizar{
+    border: solid 1px greenyellow;
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#paletaRed{
+    background-color: red;
+}

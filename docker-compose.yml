@@ -1,0 +1,14 @@
+
+version: '3.7'
+services:
+  servico-php:
+    image: php
+    volumes:
+      - ./:/usr/src/paleta-rgba
+    working_dir: /usr/src/paleta-rgba
+    command:
+      - php
+      - -S
+      - 0.0.0.0:80
+    ports:
+      - 8002:80
