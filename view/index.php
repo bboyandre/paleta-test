@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PALETAS DE COR</title>
 </head>
 <body>
     <div>
@@ -20,21 +20,21 @@
     
         <div class="options" id="" action="">
             <div class="linha">
-                <div class="paletas" onclick="mudarCor(event)" value="red"></div>
-                <div class="paletas" value="green"></div>
-                <div class="paletas" value="blue"></div>
+                <div class="paletas" onclick="mudarCor()" id="red"></div>
+                <div class="paletas" onclick="mudarCor()" id="green"></div>
+                <div class="paletas" onclick="mudarCor()" id="blue"></div>
             </div>
             <div class="linha">
-                <div class="paletas" value="orange"></div>
-                <div class="paletas" value="pink"></div>
-                <div class="paletas" value="yellow"></div>
+                <div class="paletas" onclick="mudarCor()" id="orange"></div>
+                <div class="paletas" onclick="mudarCor()" id="pink"></div>
+                <div class="paletas" onclick="mudarCor()" id="yellow"></div>
             </div>
             <div class="linha">
-                <div class="paletas" value="red"></div>
-                <div class="paletas" value="red"></div>
-                <div class="paletas" value="red"></div>
+                <div class="paletas" onclick="mudarCor()" id="black"></div>
+                <div class="paletas" onclick="mudarCor()" id="white"></div>
+                <div class="paletas" onclick="mudarCor()" id="brown"></div>
             </div>
-            <button class="bt1">text</button>
+            <button class="bt1" onclick="mudarCor()" id="greenyellow">text</button>
         
         </div>
 </body>
