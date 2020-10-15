@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <script src="/controller/paleta_grafica.js"></script>
     <script src="/controller/function.js"></script>
     <link rel="stylesheet" type="text/css" href="/style.css">
     <meta charset="UTF-8">
@@ -20,21 +21,21 @@
     
         <div class="options" id="" action="">
             <div class="linha">
-                <div class="paletas" onclick="mudarCor()" id="red"></div>
-                <div class="paletas" onclick="mudarCor()" id="green"></div>
-                <div class="paletas" onclick="mudarCor()" id="blue"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="red"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="green"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="blue"></div>
             </div>
             <div class="linha">
-                <div class="paletas" onclick="mudarCor()" id="orange"></div>
-                <div class="paletas" onclick="mudarCor()" id="pink"></div>
-                <div class="paletas" onclick="mudarCor()" id="yellow"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="orange"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="pink"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="yellow"></div>
             </div>
             <div class="linha">
-                <div class="paletas" onclick="mudarCor()" id="black"></div>
-                <div class="paletas" onclick="mudarCor()" id="white"></div>
-                <div class="paletas" onclick="mudarCor()" id="brown"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="black"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="white"></div>
+                <div class="paletas" onclick="mudarCor(this)" data-cor="brown"></div>
             </div>
-            <button class="bt1" onclick="mudarCor()" id="greenyellow">text</button>
+            <button class="bt1" onclick="mudarCor()" data-cor="greenyellow">text</button>
         
         </div>
 </body>
