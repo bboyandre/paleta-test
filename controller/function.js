@@ -6,4 +6,5 @@ function gerarCor(){
 
     var cor = "rgba("+red+", "+green+", "+blue+", "+opt+")";
     document.getElementById("cor").style.background = cor;
+    document.getElementById("cor1").style.background = cor;
 }

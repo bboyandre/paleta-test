@@ -35,7 +35,9 @@
                 <div class="paletas" onclick="mudarCor(this)" data-cor="white"></div>
                 <div class="paletas" onclick="mudarCor(this)" data-cor="brown"></div>
             </div>
-            <button class="bt1" onclick="mudarCor()" data-cor="greenyellow">text</button>
+            <!--<button class="bt1" onclick="mudarCor()" data-cor="greenyellow">text</button>-->
+            <div class="separador"></div>
+            <div class="paletaRgba" id="cor1">></div>
         
         </div>
 </body>

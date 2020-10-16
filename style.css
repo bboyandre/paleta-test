@@ -1,4 +1,4 @@
-#cor{
+.paleta{
     padding: 10% 0;
     width: 100%;
     background-color: #ccc;
@@ -45,4 +45,24 @@
 }
 #paletaRed{
     background-color: red;
+}
+.paletaRgba{
+    background-color: #ccc;
+    width: 91px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    text-align: right;
+    margin-top: 4px;
+}
+.separador{
+    background-color: gray;
+    width: 91px;
+    height: 3px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
